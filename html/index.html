@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Hyper - Responsive Bootstrap 4 Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+    <meta content="Coderthemes" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- third party css -->
+    <link href="assets/css/vendor/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+    <!-- third party css end -->
+
+    <!-- App css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body data-layout="detached">
+
+    @@include('./partials/topbar-dark.html')
+
+    <div class="container-fluid">
+
+        <!-- Begin page -->
+        <div class="wrapper">
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <!-- Start Content-->
+
+            @@include('./partials/detached-left-sidebar.html')
+
+            <div class="content-page">
+                <div class="content">
+
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box page-title-box-sm">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Hyper</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Layouts</a></li>
+                                        <li class="breadcrumb-item active">Detached Sidenav</li>
+                                    </ol>
+                                </div>
+                                <h4 class="page-title">Productos</h4>
+                            </div> <!-- end page-title-box -->
+                        </div> <!-- end col-->
+                    </div>
+                    <!-- end page title -->
+                    <div class="row">
+                        <div class="col col-lg-3 item-shop">
+                            <div class="card d-block">
+                                <div class="image-card">
+                                    <img class="card-img-top w-100 h-100 d-inline-block"
+                                        src="https://img.pccomponentes.com/articles/14/142036/1420360.jpg"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Producto x 500gr</h5>
+                                    <p class="card-text">Categoría</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Cras justo odio</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col col-lg-3 item-shop">
+                            <div class="card d-block">
+                                <div class="image-card">
+                                    <img class="card-img-top w-100 h-100 d-inline-block"
+                                        src="https://img.pccomponentes.com/articles/14/142036/1420360.jpg"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Producto x 500gr</h5>
+                                    <p class="card-text">Categoría</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Cras justo odio</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content -->
+
+                @@include('./partials/footer.html')
+            </div> <!-- content-page -->
+
+        </div> <!-- end wrapper-->
+
+        <!-- ============================================================== -->
+        <!-- End Page content -->
+        <!-- ============================================================== -->
+
+
+    </div>
+    <!-- END Container -->
+
+
+    @@include('./partials/right-sidebar.html')
+
+
+    <!-- App js -->
+    <script src="assets/js/app.min.js"></script>
+
+    <!-- third party js -->
+    <script src="assets/js/vendor/Chart.bundle.min.js"></script>
+    <script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
+    <!-- third party js ends -->
+
+    <!-- demo app -->
+    <script src="assets/js/pages/demo.dashboard.js"></script>
+    <!-- end demo js-->
+
+</body>
+
+</html>
