@@ -7,14 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta content="Coderthemes" name="author" />
-    <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
 
-    <!-- third party css -->
     <link href="assets/css/vendor/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
-    <!-- third party css end -->
 
-    <!-- App css -->
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
 </head>
@@ -25,21 +21,13 @@
 
     <div class="container-fluid">
 
-        <!-- Begin page -->
         <div class="wrapper">
-
-            <!-- ============================================================== -->
-            <!-- Start Page Content here -->
-            <!-- ============================================================== -->
-
-            <!-- Start Content-->
 
             @@include('./partials/detached-left-sidebar.html')
 
             <div class="content-page">
                 <div class="content">
 
-                    <!-- start page title -->
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box page-title-box-sm">
@@ -50,77 +38,48 @@
                                         <li class="breadcrumb-item active">Detached Sidenav</li>
                                     </ol>
                                 </div>
-                                <h4 class="page-title">Productos</h4>
-                            </div> <!-- end page-title-box -->
-                        </div> <!-- end col-->
-                    </div>
-                    <!-- end page title -->
-                    <div class="row">
-                        <div class="col col-lg-3 item-shop">
-                            <div class="card d-block">
-                                <div class="image-card">
-                                    <img class="card-img-top w-100 h-100 d-inline-block"
-                                        src="https://img.pccomponentes.com/articles/14/142036/1420360.jpg"
-                                        alt="Card image cap">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Producto x 500gr</h5>
-                                    <p class="card-text">Categoría</p>
-                                </div>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Cras justo odio</li>
-                                </ul>
+                                <h4 class="page-title">Productos populares</h4>
                             </div>
                         </div>
-                        <div class="col col-lg-3 item-shop">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 item-shop">
                             <div class="card d-block">
-                                <div class="image-card">
-                                    <img class="card-img-top w-100 h-100 d-inline-block"
-                                        src="https://img.pccomponentes.com/articles/14/142036/1420360.jpg"
+                                <div class="item-image">
+                                    <img class="card-img-top d-inline-block"
+                                        src="https://image.freepik.com/free-vector/empty-cardboard-box-opened_34950-8.jpg"
                                         alt="Card image cap">
                                 </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Producto x 500gr</h5>
-                                    <p class="card-text">Categoría</p>
+                                <div class="card-body p-2">
+                                    <h5 class="card-title text-center">Producto x 500gr</h5>
+                                    <div class="item-text card-text text-center">
+                                        <p>Nullam molestie consectetur nisl,
+                                            quis pretium est bibendum id.
+                                            Ut a congue tellus. Vestibulum vitae elit nisi. Duis tincidunt dictum ex.
+                                            Pellentesque ullamcorper vulputate eros.</p>
+                                    </div>
                                 </div>
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Cras justo odio</li>
+                                    <li class="list-group-item text-right font-weight-bolder font-15 text-primary">$ 1.000,00</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- content -->
 
                 @@include('./partials/footer.html')
-            </div> <!-- content-page -->
+            </div>
 
-        </div> <!-- end wrapper-->
-
-        <!-- ============================================================== -->
-        <!-- End Page content -->
-        <!-- ============================================================== -->
-
+        </div>
 
     </div>
-    <!-- END Container -->
-
 
     @@include('./partials/right-sidebar.html')
 
-
-    <!-- App js -->
     <script src="assets/js/app.min.js"></script>
 
-    <!-- third party js -->
-    <script src="assets/js/vendor/Chart.bundle.min.js"></script>
-    <script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
-    <!-- third party js ends -->
-
-    <!-- demo app -->
     <script src="assets/js/pages/demo.dashboard.js"></script>
-    <!-- end demo js-->
 
 </body>
 

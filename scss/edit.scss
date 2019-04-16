@@ -1,22 +1,37 @@
-.image-card {
-    height: 250px;
+.item-shop {
+  cursor: pointer;
+
+  .item-image {
+    height: 200px;
+    max-height: 200px;
     text-align: center;
 
-    img{
-        max-width: 250px;
+    img {
+      height: 200px;
+      max-height: 200px;
+      max-width: 200px;
     }
-}
+  }
 
-.item-shop{
-    cursor: pointer;
+  .item-text {
+    height: 50px;
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 425px) {
-    .image-card{
-        height: 150px;
+  .item-shop {
+    padding: 5px;
+    width: 50%;
+    flex-grow: unset;
+    flex-basis: auto;
 
-        img{
-            max-width: 150px;
-        }
+    .image-card {
+      height: 150px;
+
+      img {
+        max-width: 150px;
+      }
     }
   }
+}
